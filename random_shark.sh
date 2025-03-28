@@ -1,6 +1,6 @@
 #!/bin/bash
 
-directorio_tiburones=$(pwd)
+directorio_tiburones=$(realpath ASCII/)
 
 
 if [ ! -d "$directorio_tiburones" ]; then
